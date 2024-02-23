@@ -10,23 +10,20 @@
 
 p {
     text-align: justify;
+    margin-left:auto;
+    margin-right: auto;
     margin-top: .75em;
     margin-bottom: .75em;
 }
 
-p::before {
-    margin-left: 0;
+pre {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: fit-content;
+    margin-left: auto;
     margin-right: auto;
-    padding: 100px;
-    
 }
 
-p::after {
-    margin-left: 0;
-    margin-right: auto;
-    padding: 100px;
-    
-}
 
 a:any-link {
     color: black;
